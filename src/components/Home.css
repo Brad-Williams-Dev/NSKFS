@@ -1,0 +1,83 @@
+/* Center the content */
+.announcements {
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+}
+/* Center the content */
+.newsCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+   
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    gap: 20px; /* Add spacing between the cards */
+    
+  }
+  
+  .newsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px; /* Set a fixed width for the cards */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-image: url("../cssBG.webp");
+  }
+  
+  
+  
+  .newsTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .newsDate {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .newsContent {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .newsImage {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    display: block; /* Ensure the image is treated as a block element */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto;
+  }
+  
+  
+  /* Styling for mobile */
+  @media (max-width: 600px) {
+    .newsBox {
+      width: 100%;
+      margin: 15px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
